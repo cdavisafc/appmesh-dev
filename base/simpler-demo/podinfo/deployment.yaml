@@ -5,7 +5,7 @@ metadata:
   namespace: simplerdemo
   labels:
     app: podinfo
-    foo: bar
+    foo: bar1
 spec:
   minReadySeconds: 1
   revisionHistoryLimit: 5
