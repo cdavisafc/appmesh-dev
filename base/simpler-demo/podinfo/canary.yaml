@@ -14,10 +14,10 @@ spec:
     kind: Deployment
     name: podinfo
   # HPA reference (optional)
-  autoscalerRef:
-    apiVersion: autoscaling/v2beta1
-    kind: HorizontalPodAutoscaler
-    name: podinfo
+  # autoscalerRef:
+  #   apiVersion: autoscaling/v2beta1
+  #   kind: HorizontalPodAutoscaler
+  #   name: podinfo
   service:
     # container port
     port: 9898
